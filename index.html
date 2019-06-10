@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Fruit Game</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    </head>
+    
+    <body>
+        <div id="container">
+        <div id="score">
+        Score:<span id="scorevalue">0</span>
+        </div>
+        <div id="lifeleft"></div>
+        <div id="fruitbox" >
+        <img id="fruit1" class="fruit" >
+            
+        </div>
+        <div id="instruction">
+            Catch Fruits.
+        </div>
+        <div id="start"> Start Game</div>
+        <div id="gameover">
+        <p>Game Over!</p>
+        <p>your Score is <span id="total">0</span>.</p>
+        </div>
+        </div>
+        <div id="footer"> Saurabh &copy;</div>
+        <audio id="sound">
+            <source src="audio/slicefruit.mp3">
+        </audio>
+        
+        <script src="jscript.js"></script>
+    </body>
+</html>

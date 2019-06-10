@@ -1,0 +1,114 @@
+html {
+    background: radial-gradient(circle,#fff,#ccc);
+    height: 100%;
+}
+
+#container {
+    background:  #9DD2EA; 
+    height: 600px;
+    width: 750px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px auto;
+    box-shadow: 0px 4px 1px 0px #009DE4;
+    position: relative;
+}
+
+#score {
+    background:  #F1FF92; 
+    left: 700px;
+    padding: 11px;
+    color: #A38E5F;
+    box-shadow: 0px 4px 0px #9DA853;
+    position: absolute;
+}
+
+#fruitbox{
+    background: #ffff;
+    height: 400px;
+    width: 650px;
+    box-shadow: 0px 4px 0px #535AA8;
+    margin: 50px auto 10px auto;
+    text-align: center;
+    font-size: 7.5em;
+    font-family: cursive;
+    overflow: hidden;
+    position: relative;
+}
+
+#instruction {
+    background: #B481D9;
+    margin: 10px auto;
+    width: 450px;
+    height: 50px;
+    box-shadow: 0px 5px 0px #8153A8;
+    line-height: 45px;
+    text-align: center;
+}
+
+
+
+#start {
+    background: #CEE9F5;
+    padding: 11px;
+    box-shadow: 0px 3px 0px #7EA8BB;
+    cursor: pointer;
+    position: absolute;
+    left: 350px;
+    border-radius: 4px;
+    transition: all 0.2s;
+    width: 78px;
+    text-align: center;
+}
+
+.box:active,#start:active {
+    background: #9C89F6;
+    color: white;
+    box-shadow: 0px 0px #6b54d3; 
+     
+}
+
+#lifeleft {
+    background: #F1FF92;
+    box-shadow: 0px 3px 0px #7EA8BB;
+    padding: 11px;
+    float: left;
+    border-radius: 3px;
+    width: 80px;
+    position: absolute;
+    display: none;
+        
+}
+
+#gameover {
+    width: 500px;
+    height: 200px;
+    background: linear-gradient(#F3C96B,#F3716C);
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 175px;
+    left: 150px;
+    display: none;
+    font-size: 2.5em;
+}
+
+#footer {
+    text-align: center;
+    color: fuchsia;
+    padding: 10px;
+    background: radial-gradient(yellow,white);
+    
+}
+
+.life {
+    width: 16px;
+    height: 16px;
+    margin: 0px 5px;
+}
+
+.fruit {
+    display: none;
+    position: absolute;
+}
